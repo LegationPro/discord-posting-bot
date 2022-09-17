@@ -1,0 +1,8 @@
+.vscode
+server/.env
+server/go.sum
+server/go.mod
+
+client/bin
+client/lib
+client/.env

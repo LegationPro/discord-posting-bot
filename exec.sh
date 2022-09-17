@@ -1,0 +1,1 @@
+cd "server" && go run main.go & cd "client" && python3 src/main.py
