@@ -1,12 +1,12 @@
 import json
 
-def get(json_data):
+def get_json_data(json_data):
     
     if type(json_data) == "str":
         json_data = json.loads(json_data)
     
     sorted_data = []
-    
+        
     for status in json_data["statuses"]:
         created_at = status["created_at"]
         hashtags = status["entities"]["hashtags"]
